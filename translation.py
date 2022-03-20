@@ -1,43 +1,24 @@
 class Translation(object):
-    START_TEXT = """Hi {},I'm URL Uploader! Click /help for more details!
+    START_TEXT = """ʜɪ {},ɪ'ᴍ ᴜʀʟ ᴜᴘʟᴏᴀᴅᴇʀ ᴅᴄ ʙᴏᴛ!
 
-@Groupdcbots"""
-    FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
-    SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
-URL | filename | username | password"""
-    DOWNLOAD_START = "📥 Downloading..."
-    UPLOAD_START = "📤 Uploading..."
+ʏᴏᴜ ᴄᴀɴ ᴜᴘʟᴏᴀᴅ ʜᴛᴛᴘ/ʜᴛᴛᴘꜱ ᴅɪʀᴇᴄᴛ ʟɪɴᴋ, ᴜꜱɪɴɢ ᴛʜɪꜱ ʙᴏᴛ! /Help ꜰᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ!
+
+〽️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @GroupDcBots"""
+    FORMAT_SELECTION = "ꜱᴇʟᴇᴄᴛ ᴛʜᴇ ᴅᴇꜱɪʀᴇᴅ ꜰᴏʀᴍᴀᴛ: <ᴀ ʜʀᴇꜰ='{}'>ꜰɪʟᴇ ꜱɪᴢᴇ ᴍɪɢʜᴛ ʙᴇ ᴀᴘᴘʀᴏxɪᴍᴀᴛᴇ \ɴɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ꜱᴇᴛ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ, ꜱᴇɴᴅ ᴘʜᴏᴛᴏ ʙᴇꜰᴏʀᴇ ᴏʀ Qᴜɪᴄᴋʟʏ ᴀꜰᴛᴇʀ ᴛᴀᴘᴘɪɴɢ ᴏɴ ᴀɴʏ ᴏꜰ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ.\ɴʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ /ᴅᴇʟᴇᴛᴇᴛʜᴜᴍʙɴᴀɪʟ ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴛʜᴇ ᴀᴜᴛᴏ-ɢᴇɴᴇʀᴀᴛᴇᴅ ᴛʜᴜᴍʙɴᴀɪʟ."
+    SET_CUSTOM_USERNAME_PASSWORD = """ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴘʀᴇᴍɪᴜᴍ ᴠɪᴅᴇᴏꜱ, ᴘʀᴏᴠɪᴅᴇ ɪɴ ᴛʜᴇ ꜰᴏʟʟᴏᴡɪɴɢ ꜰᴏʀᴍᴀᴛ: ᴜʀʟ | ꜰɪʟᴇɴᴀᴍᴇ | ᴜꜱᴇʀɴᴀᴍᴇ | ᴘᴀꜱꜱᴡᴏʀᴅ"""
+    DOWNLOAD_START = "📥 ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ..."
+    UPLOAD_START = "📤 ᴜᴘʟᴏᴀᴅɪɴɢ..."
     RCHD_TG_API_LIMIT = "🚀 Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "🚀 Thanks for using me \n\n<b>Join @Groupdcbots For More UsefUl Bots Like Me💟 </b>"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "🚀 Downloaded in {} seconds.\n🚀 Uploaded in {} seconds.\n\n@Groupdcbots"
-    SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
-    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "🚀 ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ᴍᴇ \ɴ\ɴ<ʙ>ᴊᴏɪɴ @ɢʀᴏᴜᴘᴅᴄʙᴏᴛs ғᴏʀ ᴍᴏʀᴇ ᴜsᴇғᴜʟ ʙᴏᴛs ʟɪᴋᴇ ᴍᴇ💟</b>"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "🚀 ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ in {} seconds.\n🚀 ᴜᴘʟᴏᴀᴅɪɴɢ in {} seconds.\n\n@Groupdcbots"
+    SAVED_CUSTOM_THUMB_NAIL = "ᴄᴜsᴛᴏᴍ ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛʜᴜᴍʙɴᴀɪʟ sᴀᴠᴇᴅ. ᴛʜɪs ɪᴍᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴜsᴇᴅ ɪɴ ᴛʜᴇ ᴠɪᴅᴇᴏ / ғɪʟᴇ."
+    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴄʟᴇᴀʀᴇᴅ sᴜᴄᴄᴇsғᴜʟʟʏ."
     CUSTOM_CAPTION_UL_FILE = "{}"
-    NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
-    ABOUT_MSG = """ Something About Me :
-    
-   ☞My Name  : Url Uploader Bot
-
-   ☞Updates  : @Groupdcbots    
-
-   ☞Language : Python3
-
-   ☞Library  : <a href="https://docs.pyrogram.org/">Pyrogram 1.0.7</a>"""
-    HELP_USER = """Please Follow These steps!
-    
-1. Send url (example.domain/File.mp4 | New Filename.mp4).
-2. Send Image As Custom Thumbnail (Optional).
-3. Select the button.
-   SVideo - Give File as video with Screenshots
-   DFile  - Give File (video) as file with Screenshots
-   Video  - Give File as video without Screenshots
-   File   - Give File without Screenshots
-
-If bot didn't respond, Ask Here @Groupdcbots"""
-    REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Reply /generatecustomthumbnail to a media album, to generate custom thumbail"
-    ERR_ONLY_TWO_MEDIA_IN_ALBUM = """Media Album should contain only two photos. Please re-send the media album, and then try again, or send only two photos in an album."
-You can use /rename command after receiving file to rename it with custom thumbnail support.
-"""
-    CANCEL_STR = "✅ Process Cancelled"
-    ZIP_UPLOADED_STR = "🚀 Uploaded {} files in {} seconds"
-    SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> http://filestreamdcbot.herokuapp.com/1198 and get me a fast URL in @Dcstreamsbot so that I can upload to Telegram, without me slowing down for other users."
+    NO_VOID_FORMAT_FOUND = "ᴇʀʀᴏʀ...\n<b>ʏᴏᴜᴛᴜʙᴇᴅʟ</b> said: {}"
+    ABOUT_MSG = """sᴏᴍᴇᴛʜɪɴɢ ᴀʙᴏᴜᴛ ᴍᴇ :         ☞ᴍʏ ɴᴀᴍᴇ  : ᴜʀʟ ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ     ☞ᴜᴘᴅᴀᴛᴇs  : @ɢʀᴏᴜᴘᴅᴄʙᴏᴛs         ☞ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ𝟹     ☞ʟɪʙʀᴀʀʏ  : <ᴀ ʜʀᴇғ="ʜᴛᴛᴘs://ᴅᴏᴄs.ᴘʏʀᴏɢʀᴀᴍ.ᴏʀɢ/">ᴘʏʀᴏɢʀᴀᴍ 𝟷.𝟶.𝟽</a>"""
+    HELP_USER = """ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴛʜᴇsᴇ sᴛᴇᴘs!      𝟷. sᴇɴᴅ ᴜʀʟ (ᴇxᴀᴍᴘʟᴇ.ᴅᴏᴍᴀɪɴ/ғɪʟᴇ.ᴍᴘ𝟺 | ɴᴇᴡ ғɪʟᴇɴᴀᴍᴇ.ᴍᴘ𝟺). 𝟸. sᴇɴᴅ ɪᴍᴀɢᴇ ᴀs ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ (ᴏᴘᴛɪᴏɴᴀʟ). 𝟹. sᴇʟᴇᴄᴛ ᴛʜᴇ ʙᴜᴛᴛᴏɴ.    sᴠɪᴅᴇᴏ - ɢɪᴠᴇ ғɪʟᴇ ᴀs ᴠɪᴅᴇᴏ ᴡɪᴛʜ sᴄʀᴇᴇɴsʜᴏᴛs    ᴅғɪʟᴇ  - ɢɪᴠᴇ ғɪʟᴇ (ᴠɪᴅᴇᴏ) ᴀs ғɪʟᴇ ᴡɪᴛʜ sᴄʀᴇᴇɴsʜᴏᴛs    ᴠɪᴅᴇᴏ  - ɢɪᴠᴇ ғɪʟᴇ ᴀs ᴠɪᴅᴇᴏ ᴡɪᴛʜᴏᴜᴛ sᴄʀᴇᴇɴsʜᴏᴛs    ғɪʟᴇ   - ɢɪᴠᴇ ғɪʟᴇ ᴡɪᴛʜᴏᴜᴛ sᴄʀᴇᴇɴsʜᴏᴛs  ɪғ ʙᴏᴛ ᴅɪᴅɴ'ᴛ ʀᴇsᴘᴏɴᴅ, ᴀsᴋ ʜᴇʀᴇ @GroupDcBots"""
+    REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "ʀᴇᴘʟʏ /ɢᴇɴᴇʀᴀᴛᴇᴄᴜsᴛᴏᴍᴛʜᴜᴍʙɴᴀɪʟ ᴛᴏ ᴀ ᴍᴇᴅɪᴀ ᴀʟʙᴜᴍ, ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙᴀɪʟ"
+    ERR_ONLY_TWO_MEDIA_IN_ALBUM = """ᴍᴇᴅɪᴀ ᴀʟʙᴜᴍ sʜᴏᴜʟᴅ ᴄᴏɴᴛᴀɪɴ ᴏɴʟʏ ᴛᴡᴏ ᴘʜᴏᴛᴏs. ᴘʟᴇᴀsᴇ ʀᴇ-sᴇɴᴅ ᴛʜᴇ ᴍᴇᴅɪᴀ ᴀʟʙᴜᴍ, ᴀɴᴅ ᴛʜᴇɴ ᴛʀʏ ᴀɢᴀɪɴ, ᴏʀ sᴇɴᴅ ᴏɴʟʏ ᴛᴡᴏ ᴘʜᴏᴛᴏs ɪɴ ᴀɴ ᴀʟʙᴜᴍ.ʏᴏᴜ ᴄᴀɴ ᴜsᴇ /ʀᴇɴᴀᴍᴇ ᴄᴏᴍᴍᴀɴᴅ ᴀғᴛᴇʀ ʀᴇᴄᴇɪᴠɪɴɢ ғɪʟᴇ ᴛᴏ ʀᴇɴᴀᴍᴇ ɪᴛ ᴡɪᴛʜ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ sᴜᴘᴘᴏʀᴛ."""
+    CANCEL_STR = "✅ ᴘʀᴏᴄᴇss ᴄᴀɴᴄᴇʟʟᴇᴅ"
+    ZIP_UPLOADED_STR = "🚀 ᴜᴘʟᴏᴀᴅᴇᴅ {} files in {} seconds"
+    SLOW_URL_DECED = "ɢᴏsʜ ᴛʜᴀᴛ sᴇᴇᴍs ᴛᴏ ʙᴇ ᴀ ᴠᴇʀʏ sʟᴏᴡ ᴜʀʟ. sɪɴᴄᴇ ʏᴏᴜ ᴡᴇʀᴇ sᴄʀᴇᴡɪɴɢ ᴍʏ ʜᴏᴍᴇ, ɪ ᴀᴍ ɪɴ ɴᴏ ᴍᴏᴏᴅ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜɪs ғɪʟᴇ. ᴍᴇᴀɴᴡʜɪʟᴇ, ᴡʜʏ ᴅᴏɴ'ᴛ ʏᴏᴜ ᴛʀʏ ᴛʜɪs:==> ʜᴛᴛᴘ://ғɪʟᴇsᴛʀᴇᴀᴍᴅᴄʙᴏᴛ.ʜᴇʀᴏᴋᴜᴀᴘᴘ.ᴄᴏᴍ/𝟷𝟷𝟿𝟾 ᴀɴᴅ ɢᴇᴛ ᴍᴇ ᴀ ғᴀsᴛ ᴜʀʟ ɪɴ @Dcstreamsbot sᴏ ᴛʜᴀᴛ ɪ ᴄᴀɴ ᴜᴘʟᴏᴀᴅ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ, ᴡɪᴛʜᴏᴜᴛ ᴍᴇ sʟᴏᴡɪɴɢ ᴅᴏᴡɴ ғᴏʀ ᴏᴛʜᴇʀ ᴜsᴇʀs."
